@@ -1,8 +1,6 @@
 #include "client_srt.hpp"
 
-// #define PORT 6533
-// #define IP_ADDRESS "81.88.148.122" // Замените на IP вашего FFmpeg-сервера
-#define BUFFER_SIZE 1316       // Стандартный размер пакета для MPEG-TS/SRT
+#define BUFFER_SIZE 1316 // Стандартный размер пакета для MPEG-TS/SRT
 
 int clinet_pull(std::unique_ptr<Params>& param) {
     // Инициализация библиотеки SRT
