@@ -325,8 +325,8 @@ int main(int argc, char* argv[]) {
   if (p->counter == 0) { p->counter = 5; }
 
   // отладка
-  printf("%s -> %s\n", p->URL, p->filename);
-  printf("%d\n", p->counter);
+  // printf("%s -> %s\n", p->URL, p->filename);
+  // printf("%d\n", p->counter);
 
   // вызываем клиента и передаем ему структуру с данными
   // для получения srt потока.
